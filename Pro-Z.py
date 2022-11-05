@@ -45,7 +45,6 @@ _H_ = "\x1b[0;92m" # Hijau
 _U_ = "\x1b[0;95m" # Ungu
 
 ### Logo
-_logo_line_1_ = ('%s ___  __  __ ___ ___ '%(_P_)
           ##     ##    
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
