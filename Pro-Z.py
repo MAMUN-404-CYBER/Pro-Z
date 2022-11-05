@@ -47,7 +47,6 @@ _U_ = "\x1b[0;95m" # Ungu
 ### Logo
 _logo_line_1_ = ('%s ___  __  __ ___ ___ '%(_P_)
           ##     ##    
-──────────┘'%(_U_))
 def _my_logo_():
     _dapunta_cici_(_logo_line_1_)
     _dapunta_cici_(_logo_line_2_)
