@@ -248,7 +248,6 @@ def _publik_dev_(_tok_dev_):
 ### Dump ID Pengikut
 def _followers_dev_(_tok_dev_):
     _Dapunta_Sayang_Cici_ = '__My_Love__'+_oscylopsce_+_escylipsce_+_ascylapsci_+'__Forever__'
-    _dapunta_cici_('%s[%s•%s] %sTulis \'me\' To Take Friends' ID%(_U_,_P_,_U_,_P_))
     _target_dev_ = _cici_dapunta_('%s[%s•%s] %sEnter ID Target : %s'%(_U_,_P_,_U_,_P_,_U_))
     try:
         _req_tar_ = _req_get_("https://graph.facebook.com/%s?fields=name,id,birthday,first_name,middle_name,last_name,name_format,picture,short_name,gender,link,email,location,hometown,religion,relationship_status,significant_other,about,locale&access_token=%s"%(_target_dev_,_tok_dev_))
